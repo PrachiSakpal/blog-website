@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  .header {
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .fakeimg {
+    background-image:url("https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2016/08/Top-Places-to-Visit-in-Mumbai.jpg");
+    width: 100%;
+    padding: 20px;
+    height:50vh;
+    background-size:cover;
+  }
+  .fakeimg1 {
+        background-image:url("https://uploads-ssl.webflow.com/576fd5a8f192527e50a4b95c/5c094bf23ae9451c4cda2427_best%20places%20to%20visit%20in%20Mumbai%20in%20one%20day.jpg");
+        width: 100%;
+        padding: 20px;
+        height:80vh;
+        background-position: center;
+        background-size:cover;
+      }
+   .fakeimg3 {
+        background-image:url("https://www.planetware.com/wpimages/2019/08/india-mumbai-top-attractions-bandra-worli-sea-link.jpg");
+        width: 100%;
+        padding: 20px;
+        height:80vh;
+        background-position: center;
+        background-size:cover;
+      }
+      .fakeimg4 {
+        background-image:url("https://www.transindiatravels.com/wp-content/uploads/haji-ali-shrine.jpg");
+        width: 100%;
+        padding: 20px;
+        height:80vh;
+        background-position: center;
+        background-size:cover;
+      }
+      .fakeimg5 {
+        background-image:url("https://www.makemytrip.com/travel-guide/media/dg_image/mumbai/thumb/Bandra-Worli-Sea-Linkmumbai_417334_211_mumbai_218_168.jpg");
+        width: 100%;
+        padding: 20px;
+        height:80vh;
+        background-position: center;
+        background-size:cover;
+      }
+  
+  .card {
+    background-color: white;
+    padding: 60px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background:black;
+    color:white;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
